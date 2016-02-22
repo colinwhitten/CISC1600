@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+
+{
+        string integer;
+        float x;
+        cout << "Input 1: ";
+        cin >> x;
+
+        string second;
+        float y;
+        cout << "Input 2: ";
+        cin >> y;
+
+        string third;
+        float z;
+
+        cout << "Input 3: ";
+        cin >> z;
+
+        cout << "Sum of the above numbers is " <<x+y+z<< endl;
+return 0;
+}
